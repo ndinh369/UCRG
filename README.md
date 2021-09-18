@@ -6,4 +6,4 @@ Summer Research Forum:
 - Autonomous robot perception and mapping of environment through SLAM and wall-following (in catkin_ws)
 
 Internals Competition:
-- Computer vision for detection and localisation of dates, mandarins and pool of water 
+- Computer vision for detection and localisation of dates, mandarins and pool of water (in computer_vision)
