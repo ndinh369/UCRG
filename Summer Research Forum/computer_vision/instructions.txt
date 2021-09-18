@@ -2,7 +2,7 @@ System Requirements:
 Ubuntu 16.04
 ROS Kinetic 
 
-Instructions for running fruit detection on certain images:
+Instructions for running fruit detection (fruit_det.cpp) on certain images:
 cmake .
 make
 ./FruitDet apple1.jpeg
