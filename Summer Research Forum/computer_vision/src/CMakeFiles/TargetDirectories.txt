@@ -1,0 +1,3 @@
+/home/sarah/computer_vision/src/CMakeFiles/rebuild_cache.dir
+/home/sarah/computer_vision/src/CMakeFiles/edit_cache.dir
+/home/sarah/computer_vision/src/CMakeFiles/FruitDet.dir
