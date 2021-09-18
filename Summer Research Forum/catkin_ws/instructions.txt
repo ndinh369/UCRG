@@ -1,0 +1,8 @@
+Instructions for running Cartographer SLAM and wall-following on TurtleBot:
+
+catkin_make
+source install_isolated/setup.bash
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
+roslaunch turtlebot3_teleop turtlebot3_teleop.launch
+rosrun obs_det obs_det.cpp
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=cartographer
