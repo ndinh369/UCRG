@@ -1,0 +1,4 @@
+Instructions for running jupyter notebook for computer vision:
+
+pip install -r requirements.txt
+run colour_det.ipynb jupyter notebook in editor of choice
