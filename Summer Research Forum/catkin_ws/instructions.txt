@@ -1,5 +1,8 @@
-Instructions for running Cartographer SLAM and wall-following on TurtleBot:
+System Requirements:
+Ubuntu 16.04
+ROS Kinetic 
 
+Instructions for running Cartographer SLAM and wall-following on TurtleBot:
 catkin_make
 source install_isolated/setup.bash
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
