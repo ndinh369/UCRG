@@ -1,0 +1,8 @@
+prefix=/home/sarah/catkin_ws/devel
+
+Name: MoveForward
+Description: Description of MoveForward
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
