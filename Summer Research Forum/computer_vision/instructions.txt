@@ -1,0 +1,6 @@
+Instructions for running fruit detection on certain images:
+
+cmake .
+make
+./FruitDet apple1.jpeg
+
