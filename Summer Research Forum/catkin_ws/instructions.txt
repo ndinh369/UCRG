@@ -2,10 +2,14 @@ System Requirements:
 Ubuntu 16.04
 ROS Kinetic 
 
-Instructions for running Cartographer SLAM and wall-following on TurtleBot3:
+Instructions for running obstacle detection on TurtleBot3:
 catkin_make
-source install_isolated/setup.bash
+source install/setup.bash
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
-roslaunch turtlebot3_teleop turtlebot3_teleop.launch
 rosrun obs_det obs_det.cpp
-roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=cartographer
+
+Instructions for movement control using controller on TurtleBot3:
+catkin_make
+source install/setup.bash
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
+rosrun ctrl_move ctrl_move.cpp
